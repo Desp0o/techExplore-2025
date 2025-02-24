@@ -1,0 +1,24 @@
+{
+  "originHash" : "a4410c71de1b85df7fac7c43cd0b21727d5bd179b013fdcfeb119d51d8b3ba50",
+  "pins" : [
+    {
+      "identity" : "simplekeychain",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/auth0/SimpleKeychain.git",
+      "state" : {
+        "revision" : "b694f155907b189bc82e93586695a26f558c742f",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "webservice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Desp0o/webService.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "fbf8794e3bbe44b1cb25242234717a6b5a4edc97"
+      }
+    }
+  ],
+  "version" : 3
+}
