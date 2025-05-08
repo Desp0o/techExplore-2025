@@ -1,8 +1,8 @@
-# 📱 მობაილბანკის ადაპტირებული აპლიკაცია
+# 📱 Adapted Mobile Banking App
 
-ეს მობაილბანკის აპლიკაცია სპეციალურად შექმნილია უსინათლოებისა და ცუდი მხედველობის მქონე ადამიანებისთვის, რათა მათ მარტივად და უსაფრთხოდ გამოიყენონ საბანკო სერვისები ონლაინ.
+This mobile banking app is specially designed for blind and visually impaired individuals, so they can easily and securely use banking services online.
 
-## ‼️ ხმოვანი ასისტენტი გააქტიურეთ პარამეტრებიდან ‼️
+## ‼️ Activate the voice assistant from the settings ‼️
 
 
 | user | password     |                 
@@ -10,30 +10,29 @@
 | `test@test.com` | `Pass123!` | 
 
 
-## 🔹 ფუნქციები
+## 🔹 Features
 
-### 🗣 ხმოვანი ასისტენტი
-მომხმარებელს შეუძლია:
-- ჩართოს ხმოვანი ასისტენტი.
-- მიიღოს ხმოვანი ინსტრუქცია მთავარ გვერდზე.
-- ეკრანზე ერთხელ დაჭერისას მიიღოს ბალანსის ხმოვანი შეტყობინება.
-- ორჯერ დაჭერისას გადაინაცვლოს ტრანზაქციების ისტორიის გვერდზე.
-- ხანგრძლივი დაჭერისას მოისმინოს ბოლო სამი ტრანზაქციის ხმოვანი შეტყობინება.
+### 🗣 Voice Assistant
+The user can:
+- Enable the voice assistant.
+- Receive voice instructions on the main screen.
+- Get a voice notification of their balance with a single tap on the screen.
+- Navigate to the transaction history page with a double tap.
+- Hear voice notifications of the last three transactions with a long press.
 
-### 📊 ტრანზაქციების ისტორია
-- ხანგრძლივი დაჭერისას მომხმარებელი მიიღებს ყველა გადახდილი ტრანზაქციის ჯამს.
-- რამდენჯერაც დაატაპებს, იმდენი ბოლო ტრანზაქციის ჯამის ხმოვანი შეტყობინება.
-- თუ ხმოვანი ასისტენტი გათიშულია, მომხმარებელს შეუძლია აირჩიოს სასურველი ტრანზაქციები და მოახდინოს მათი კალკულაცია.
+### 📊 Transaction History
+- With a long press, the user will hear the total amount of all paid transactions.
+- With each tap, the voice assistant will announce the total amount of the most recent transaction.
+- If the voice assistant is disabled, the user can manually select transactions and calculate them.
 
-### ⚙️ პარამეტრები
-- მომხმარებელს შეუძლია აირჩიოს სასურველი თემა აპლიკაციისთვის.
-- აპლიკაცია მოიცავს ხუთ განსხვავებულ თემას ფერადი აღქმის დარღვევის მქონდე ადამიანებისთვის.
-- შესაძლებელია ხმოვანი ასისტენტის ჩართვა/გამორთვა.
+### ⚙️ Settings
+- The user can select a preferred theme for the app.
+- The app includes five different themes for users with color perception difficulties.
+- The voice assistant can be turned on/off.
 
-## ⚒ ტექნიკური მხარე
-- **ენა:** Swift
-- **ფრეიმვორკი:** SwiftUI
-- **ედიტორი:** Xcode
-- **არქიტექტურა:** MVVM
-- **ხმოვანი ეფექტები:** AVSpeechSynthesizer
-
+## ⚒ Technical Details
+- **Language:** Swift
+- **Framework:** SwiftUI
+- **Editor:** Xcode
+- **Architecture:** MVVM
+- **Voice Effects:** AVSpeechSynthesizer
